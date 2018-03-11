@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <android.support.v4.widget.NestedScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.barkerfamily.clue.cluescorecard.ScrollingActivity"
+        tools:showIn="@layout/activity_scrolling">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewSus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:text="@string/suspect"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.WindowTitle"/>
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/draco_malfoy_lay"
+                app:text='@{@string/sus_draco_malfoy}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/crab_amp_goyle_lay"
+                app:text='@{@string/sus_crabbe_amp_goyle}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/sus_lucius_malfoy_lay"
+                app:text='@{@string/sus_lucius_malfoy}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/sus_dolores_umbridge_lay"
+                app:text='@{@string/sus_dolores_umbridge}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/sus_peter_petegrew_lay"
+                app:text='@{@string/sus_peter_petegrew}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/sus_bellatrix_lestrange_lay"
+                app:text='@{@string/sus_bellatrix_lestrange}' />
+
+
+            <TextView
+                android:id="@+id/textViewItem"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:text="@string/item"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.WindowTitle"/>
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/item_sleeping_draught_lay"
+                app:text='@{@string/item_sleeping_draught}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/item_vanishing_cabinet_lay"
+                app:text='@{@string/item_vanishing_cabinet}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/item_portkey_lay"
+                app:text='@{@string/item_portkey}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/item_impedimenta_lay"
+                app:text='@{@string/item_impedimenta}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/item_petrificus_totalus_lay"
+                app:text='@{@string/item_petrificus_totalus}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/item_mandrake_lay"
+                app:text='@{@string/item_mandrake}' />
+
+
+            <TextView
+                android:id="@+id/textViewLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:text="@string/location"
+                android:textColor="@color/colorPrimaryDark"
+                android:textAppearance="@android:style/TextAppearance.DeviceDefault.WindowTitle"/>
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/loc_great_hall_lay"
+                app:text='@{@string/loc_great_hall}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/loc_hospital_wing_lay"
+                app:text='@{@string/loc_hospital_wing}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/loc_room_of_requirement_lay"
+                app:text='@{@string/loc_room_of_requirement}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/loc_potions_classroom"
+                app:text='@{@string/loc_potions_classroom}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/loc_trophy_room_lay"
+                app:text='@{@string/loc_trophy_room}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/loc_divination_classroom_lay"
+                app:text='@{@string/loc_divination_classroom}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/loc_owlery_lay"
+                app:text='@{@string/loc_owlery}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/loc_library_lay"
+                app:text='@{@string/loc_library}' />
+
+            <include layout="@layout/reuse_layout"
+                android:id="@+id/loc_defense_against_dark_arts_lay"
+                app:text='@{@string/loc_defense_against_dark_arts}' />
+
+
+        </LinearLayout>
+
+
+
+    </android.support.v4.widget.NestedScrollView>
+
+
+</layout>
